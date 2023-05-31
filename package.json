@@ -1,0 +1,21 @@
+{
+  "name": "ecommerce-project-faculty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch assets/scss/styles.scss:assets/scss/dist/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duduike/ecommerce-project-faculty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duduike/ecommerce-project-faculty/issues"
+  },
+  "homepage": "https://github.com/duduike/ecommerce-project-faculty#readme"
+}
