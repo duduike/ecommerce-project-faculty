@@ -1,5 +1,96 @@
-body header {
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+i::before {
+  font-family: "Font Awesome 6 Free";
+}
+
+a {
+  text-decoration: none;
+  color: #301C39;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+html body {
+  font-family: "Maven Pro", sans-serif;
+  color: #301C39;
+  background-color: #FFFBF2;
+  border: 1px solid #5F5F5F;
+}
+html body header {
   background-color: #7DD7EC;
+  border-bottom: 1px solid #5F5F5F;
+}
+html body header nav a .logo {
+  width: 62px;
+  border-radius: 62.5px;
+}
+html body header nav .nav-buttons {
+  margin-left: auto;
+}
+html body header nav div .nav-link {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.5px;
+}
+html body .banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+html body .banner .banner-img {
+  width: 100%;
+}
+html body main {
+  padding: 10px 15px 0 15px;
+}
+html body main .tittle {
+  font-size: 25px;
+  font-weight: 500;
+}
+html body main .products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+html body main .products .item {
+  width: 134px;
+  border: 1px solid #5F5F5F;
+  margin-bottom: 24px;
+}
+html body main .products .item .item-img {
+  width: 100%;
+}
+html body main .products .item p {
+  background-color: #D9D9D9;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+html body footer {
+  width: 100%;
+  background-color: #7DD7EC;
+  border-top: 1px solid #5F5F5F;
+  height: 59px;
+}
+html body footer p {
+  padding: 16px;
+  margin: 0px 0 0 9px;
+  font-size: 13px;
+  line-height: 19.98px;
 }
 
 /*# sourceMappingURL=styles.css.map */
