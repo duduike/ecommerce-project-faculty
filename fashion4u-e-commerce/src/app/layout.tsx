@@ -6,7 +6,7 @@ import { Montserrat } from 'next/font/google'
 const montserrat = Montserrat({ subsets: ['latin'], weight: ['500'] })
 
 export const metadata = {
-  title: 'Fashion 4U',
+  title: 'Fashion 4U - Feita para você!',
   description: 'ecommerce project',
   keywords:'Eduardo Pina, react, reactjs, typescript, next js, ecommerce'
 }

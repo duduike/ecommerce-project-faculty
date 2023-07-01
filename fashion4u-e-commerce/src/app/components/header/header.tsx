@@ -18,7 +18,7 @@ export const Header = () => {
         </div>
 
         <nav>
-            <ul className='ml-7 hidden lg:flex gap-3'>
+            <ul className='ml-7 hidden lg:flex gap-5'>
                 <li className='hover:scale-110 transition-all'>
                     <Link href="/">Home</Link>
                 </li>
