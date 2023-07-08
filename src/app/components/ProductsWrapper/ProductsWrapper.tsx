@@ -1,5 +1,5 @@
 
-type ProductsWrapperProps = {
+interface ProductsWrapperProps  {
     children: React.ReactNode;
   };
   
