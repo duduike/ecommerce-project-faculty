@@ -1,5 +1,5 @@
 
-type TitleSectionProps = {
+interface TitleSectionProps {
   title: string;
 }
 

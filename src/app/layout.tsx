@@ -1,5 +1,5 @@
-import { Footer } from './components/Footer/Footer'
-import { Header } from './components/Header/Header'
+import { Footer } from './components/Footer/Footer' 
+import { Header } from './components/Header/Header' 
 import './globals.css'
 import { Montserrat } from 'next/font/google'
 
@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: { 
   children: React.ReactNode
 }) {
   return (
